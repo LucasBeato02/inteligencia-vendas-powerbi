@@ -10,15 +10,19 @@ Este projeto prático consiste no desenvolvimento de um dashboard estratégico f
 <img width="1182" height="663" alt="Captura de tela 2026-07-02 153812" src="https://github.com/user-attachments/assets/f703ef1f-43fc-4d20-bc91-dead549c9101" />
 
 ## 🛠️ Tecnologias e Recursos Utilizados
-* **Power BI:** Desenvolvimento dos visuais e relatórios gerenciais.
-* **Power Query:** Extração, modelagem e tratamento de datasets públicos para garantir a confiabilidade dos indicadores.
-* **Lógica Analítica:** Higienização, consistência e qualidade da base de dados.
+* **Power BI:** Desenvolvimento dos visuais, relatórios gerenciais e aplicação de identidade visual voltada para a experiência do usuário[cite: 1].
+* **Power Query:** Extração, modelagem e tratamento de datasets públicos para garantir a confiabilidade dos indicadores[cite: 1].
+* **Lógica Analítica:** Higienização, consistência e qualidade da base de dados[cite: 1].
 
-## 📈 Funcionalidades e Análises Implementadas
-* **Monitoramento de KPIs:** Acompanhamento em tempo real de faturamento, volume de pedidos e margem de vendas.
-* **Análise Geoespacial:** Segmentação de descontos por região e identificação de praças mais lucrativas.
-* **Rankings Dinâmicos:** Criação de visuais de "Top Clientes" e "Top Produtos".
-* **Tooltips Personalizados:** Implementação de janelas flutuantes de detalhes ao passar o mouse sobre os gráficos, melhorando a experiência do usuário sem poluir o visual principal.
+## 📈 Principais Métricas e Funcionalidades Monitoradas
+* **Métricas Principais (Cards):** Total de Vendas (7,84 Mi), Total de Pedidos (51,29 Mil), Variedade de Produtos (3.788 Mil), Custo de Entrega Global (123 Mi) e Desconto Médio Geral (4,37).
+* **Visão de Rankings (Top 10):**
+  * **Produtos mais Vendidos vs. Mais Descontados:** Destaque para o *Eldon File Cart* liderando em vendas (31 Mil) e a *Hewlett Copy Machine* concentrando o maior volume de descontos (2.602).
+  * **Maiores Clientes:** Mapeamento de receita por cliente, identificando *Emily Phan* (12,55 Mil) e *Marc Crier* (11,97 Mil) como os principais compradores.
+* **Análise por Categoria:** 
+  * Distribuição equilibrada de faturamento entre *Office Supplies* (35,6%), *Technology* (33,68%) e *Furniture* (30,72%).
+  * Concentração estratégica de descontos na categoria de *Technology*, que absorve 43,96% do total de concessões.
+* **Análise Geoespacial:** Segmentação de descontos e vendas por região e país, destacando os Estados Unidos (1,31 Mi) e o Sudeste Asiático (85 Mil em descontos)[cite: 1].
 
 ## 🧠 Etapas do Desenvolvimento
 1. **ETL (Extract, Transform, Load):** Conexão com os datasets públicos através do Power Query, realizando a limpeza de dados, correção de tipos e eliminação de inconsistências.
